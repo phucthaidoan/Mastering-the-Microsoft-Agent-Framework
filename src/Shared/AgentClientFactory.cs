@@ -11,7 +11,7 @@ public static class AgentClientFactory
 {
     public static IChatClient CreateChatClient()
     {
-        string endpoint = GetRequiredEnvironmentVariable("AZURE_OPENAI_ENDPOINT");
+        string endpoint = NormalizeAzureOpenAIEndpoint(GetRequiredEnvironmentVariable("AZURE_OPENAI_ENDPOINT"));
         string deployment = GetRequiredEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT");
 
         AzureCliCredential credential = new();
@@ -29,6 +29,40 @@ public static class AgentClientFactory
             .AsAIAgent(model: deploymentName, instructions: instructions, name: name);
 
         return agent;
+    }
+
+    private static string NormalizeAzureOpenAIEndpoint(string endpoint)
+    {
+        // Portal pages show several endpoint forms; the SDK appends its own path, so longer forms can produce invalid URLs and 404s.
+        string normalized = endpoint.Trim();
+        string[] suffixes =
+        [
+            "/openai/v1/responses",
+            "/openai/v1",
+            "/responses",
+            "/openai"
+        ];
+
+        while (true)
+        {
+            string trimmed = normalized.TrimEnd('/');
+
+            if (trimmed.Length != normalized.Length)
+            {
+                normalized = trimmed;
+                continue;
+            }
+
+            string? matchedSuffix = suffixes.FirstOrDefault(
+                suffix => normalized.EndsWith(suffix, StringComparison.OrdinalIgnoreCase));
+
+            if (matchedSuffix is null)
+            {
+                return normalized;
+            }
+
+            normalized = normalized[..^matchedSuffix.Length].TrimEnd('/');
+        }
     }
 
     private static string GetRequiredEnvironmentVariable(string name)
