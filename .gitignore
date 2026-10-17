@@ -1,0 +1,14 @@
+# Visual Studio settings and user files
+.vs/
+*.user
+*.suo
+
+# Build and test output
+[Bb]in/
+[Oo]bj/
+TestResults/
+
+# Local environment configuration
+.env
+.env.*
+!.env.template
