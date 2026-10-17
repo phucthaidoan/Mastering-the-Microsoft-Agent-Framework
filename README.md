@@ -40,6 +40,7 @@ A clean run means your environment matches the book's. You can also just run
 | 7 | src/Ch07.ClaimsIntake | An agent that asks a human before acting |
 | 8 | src/Ch08.ComplianceAgent, src/Ch08.ComplianceMcpServer | An agent that uses tools over MCP, plus an MCP server |
 | 9 | src/Ch09.PolicyExpertSkill | An agent that draws on a packaged skill |
+| 9 | src/Ch09.PolicyExpertFileSkill | File-based Agent Skill discovered from SKILL.md |
 | 10 | src/Ch10.DocumentPipeline | A sequential multi-step workflow |
 | 11 | src/Ch11.ResearchSynthesis, src/Ch11.ItRouting | Concurrent fan-out/fan-in and handoff routing |
 | 12 | src/Ch12.MarketAssessmentGroupChat, src/Ch12.MarketAssessmentMagentic | Group chat and Magentic orchestration |
