@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 18
+VisualStudioVersion = 18.12.12308.306
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4183801F-C985-49BA-8655-03420AC89AC5}"
 EndProject
@@ -47,13 +47,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch16.RouteAdvisorServer", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch09.PolicyExpertFileSkill", "src\Ch09.PolicyExpertFileSkill\Ch09.PolicyExpertFileSkill.csproj", "{2C674139-5BBF-4FED-8FB2-D5D69B17501C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchestration.Sequential", "src\Orchestration.Sequential\Orchestration.Sequential.csproj", "{66348338-3FDC-05A3-EBDE-23116F5F433A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7E4EE748-868B-42D1-A730-870B99A59DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -140,6 +139,13 @@ Global
 		{2C674139-5BBF-4FED-8FB2-D5D69B17501C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C674139-5BBF-4FED-8FB2-D5D69B17501C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C674139-5BBF-4FED-8FB2-D5D69B17501C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66348338-3FDC-05A3-EBDE-23116F5F433A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66348338-3FDC-05A3-EBDE-23116F5F433A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66348338-3FDC-05A3-EBDE-23116F5F433A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66348338-3FDC-05A3-EBDE-23116F5F433A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7E4EE748-868B-42D1-A730-870B99A59DF3} = {4183801F-C985-49BA-8655-03420AC89AC5}
@@ -163,5 +169,9 @@ Global
 		{38C5EEB2-38A8-4584-8586-584D4BAEBC60} = {4183801F-C985-49BA-8655-03420AC89AC5}
 		{F6681673-1357-4DA3-8FD8-7C839278C673} = {4183801F-C985-49BA-8655-03420AC89AC5}
 		{2C674139-5BBF-4FED-8FB2-D5D69B17501C} = {4183801F-C985-49BA-8655-03420AC89AC5}
+		{66348338-3FDC-05A3-EBDE-23116F5F433A} = {4183801F-C985-49BA-8655-03420AC89AC5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C95FCDAB-CBF5-4C00-8E61-C1029D0B5AAE}
 	EndGlobalSection
 EndGlobal
