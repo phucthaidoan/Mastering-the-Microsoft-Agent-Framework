@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch09.PolicyExpertFileSkill"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchestration.Sequential", "src\Orchestration.Sequential\Orchestration.Sequential.csproj", "{66348338-3FDC-05A3-EBDE-23116F5F433A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchestration.Concurrent", "src\Orchestration.Concurrent\Orchestration.Concurrent.csproj", "{7E12A7C5-ACA4-40B6-7857-474ED6B3D5B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,10 @@ Global
 		{66348338-3FDC-05A3-EBDE-23116F5F433A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66348338-3FDC-05A3-EBDE-23116F5F433A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66348338-3FDC-05A3-EBDE-23116F5F433A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E12A7C5-ACA4-40B6-7857-474ED6B3D5B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E12A7C5-ACA4-40B6-7857-474ED6B3D5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E12A7C5-ACA4-40B6-7857-474ED6B3D5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E12A7C5-ACA4-40B6-7857-474ED6B3D5B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -170,6 +176,7 @@ Global
 		{F6681673-1357-4DA3-8FD8-7C839278C673} = {4183801F-C985-49BA-8655-03420AC89AC5}
 		{2C674139-5BBF-4FED-8FB2-D5D69B17501C} = {4183801F-C985-49BA-8655-03420AC89AC5}
 		{66348338-3FDC-05A3-EBDE-23116F5F433A} = {4183801F-C985-49BA-8655-03420AC89AC5}
+		{7E12A7C5-ACA4-40B6-7857-474ED6B3D5B0} = {4183801F-C985-49BA-8655-03420AC89AC5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C95FCDAB-CBF5-4C00-8E61-C1029D0B5AAE}
