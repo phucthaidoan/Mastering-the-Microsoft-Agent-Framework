@@ -5,5 +5,7 @@
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <TargetFramework>net8.0</TargetFramework>
+    <CustomAfterMicrosoftCommonTargets></CustomAfterMicrosoftCommonTargets>
+    <CustomAfterMicrosoftCommonCrossTargetingTargets></CustomAfterMicrosoftCommonCrossTargetingTargets>
   </PropertyGroup>
 </Project>
