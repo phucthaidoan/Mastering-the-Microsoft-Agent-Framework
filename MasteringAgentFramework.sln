@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchestration.Handoffs", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchestration.SubWorkflows", "src\Orchestration.SubWorkflows\Orchestration.SubWorkflows.csproj", "{3B1B11D8-EA7F-4A6B-8F08-E8FFBFAD1C4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchestration.MixedWorkflowAgentsAndExecutors", "src\Orchestration.MixedWorkflowAgentsAndExecutors\Orchestration.MixedWorkflowAgentsAndExecutors.csproj", "{E5578A24-A1C3-4BBB-A23E-3E2BCF3B4905}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +163,10 @@ Global
 		{3B1B11D8-EA7F-4A6B-8F08-E8FFBFAD1C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B1B11D8-EA7F-4A6B-8F08-E8FFBFAD1C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B1B11D8-EA7F-4A6B-8F08-E8FFBFAD1C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5578A24-A1C3-4BBB-A23E-3E2BCF3B4905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5578A24-A1C3-4BBB-A23E-3E2BCF3B4905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5578A24-A1C3-4BBB-A23E-3E2BCF3B4905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5578A24-A1C3-4BBB-A23E-3E2BCF3B4905}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -191,6 +197,7 @@ Global
 		{7E12A7C5-ACA4-40B6-7857-474ED6B3D5B0} = {4183801F-C985-49BA-8655-03420AC89AC5}
 		{083B722B-613E-674B-27C4-B26EE90F1C71} = {4183801F-C985-49BA-8655-03420AC89AC5}
 		{3B1B11D8-EA7F-4A6B-8F08-E8FFBFAD1C4B} = {4183801F-C985-49BA-8655-03420AC89AC5}
+		{E5578A24-A1C3-4BBB-A23E-3E2BCF3B4905} = {4183801F-C985-49BA-8655-03420AC89AC5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C95FCDAB-CBF5-4C00-8E61-C1029D0B5AAE}
